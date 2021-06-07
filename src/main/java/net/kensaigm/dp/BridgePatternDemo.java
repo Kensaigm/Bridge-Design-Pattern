@@ -1,4 +1,4 @@
-package info.kensaigm;
+package net.kensaigm.dp;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

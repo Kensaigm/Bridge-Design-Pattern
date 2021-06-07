@@ -18,8 +18,8 @@ public class BridgePatternDemo {
             Statement sta = conn.createStatement();
 
             // This client is an abstraction and can work with any database that has a driver
-            sta.executeUpdate("CREATE TABLE address (ID INT, StreetName VARCHAR(40),"
-            + " City VARCHAR(25), State CHAR(2), zip CHAR(10))");
+            sta.executeUpdate("CREATE TABLE Address (ID INT, StreetName VARCHAR(40),"
+            + " City VARCHAR(25), State CHAR(2), Zip CHAR(10))");
 
             System.out.println("Table created.");
 
